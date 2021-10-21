@@ -1,0 +1,261 @@
+.left-content {
+    max-width: 50%;
+    width: 50%;
+    min-height: 100%;
+    position: absolute;
+}
+
+.right-content {
+    position: fixed;
+    left: 52%;
+    width: 100%;
+    height: 100%;
+}
+
+.triangle {
+    -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%, 0% 100%, 6% 76%, 0% 40%, 6% 14%);
+}
+
+.blur {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+
+.shop-background {
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.hdqwalls.com%2Fdownload%2Fminecraft-dungeons-jungle-awakens-hero-dx-1920x1080.jpg&f=1&nofb=1) center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    background-color: #000;
+    height: 100%;
+    opacity: 0.70;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.background-content {
+    z-index: 101;
+    top: 0;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.shop-name {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    background: #000000cf;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.shop-address {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: #000000cf;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+a {
+    color: #fff;
+}
+
+
+.left-content {
+    padding: 50px;
+}
+
+@media screen and (min-width: 600px) {
+    img.product-image {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img.product-image {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-desc {
+    margin: auto;
+}
+
+.product-block {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.product-block:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+@media screen and (min-width: 600px) {
+    .footer {
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+
+    .wpbs-steps {
+        display: flex!important;
+        justify-content: center;
+    }
+
+    .instructions-title {
+        text-align: center;
+    }
+
+
+    .pay-system-images {
+        pointer-events: none;
+        user-select: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 45px 0 0 -15px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .pay-system-images img {
+        opacity: 0.7;
+        height: 25px;
+        display: block;
+        margin: 0px 0 0 25px;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+a.shop-link {
+    font-weight: 600;
+    color: #08a835;
+}
+
+body {
+    min-height: 100%!important;
+    background: #fff!important;
+    font-family: "Roboto", sans-serif!important;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+    .product-desc {
+        padding: 0px 20px;
+    }
+
+    .wpbs-carousel {
+        display: none!important;
+    }
+}
+
+
+.shop-products {
+    padding: 3% 3%;
+    background: #f4f5f4;
+}
+
+
+.wpbs-carousel {
+    margin: auto;
+    text-align: center;
+    background: #f4f5f4;
+    padding: 30px;
+}
+
+.footer-copy {
+    background: #ffffff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.product-category {
+    padding: 5px 10px;
+    background: #f4f5f4;
+    color: #6b6b6b;
+    font-weight: 600;
+    border-radius: 4px;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+
+
+
+.wpbs-steps .wpbs-step:not(:last-child) {
+    padding-right: 25px;
+}
+
+.wpbs-steps .wpbs-step {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 376px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.wpbs-tab-h6XM4 .wpbs-step {
+    flex-basis: 33.333333333333%;
+}
+
+.wpbs-steps .wpbs-step .wpbs-step-num {
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 86px;
+    padding-right: 27px;
+}
+
+.wpbs-steps .wpbs-step .wpbs-step-text {
+    color: #787f78;
+    margin: auto;
+}
+
+
+.shop-content-menu {
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.menu-link {
+    background: #f4f5f4;
+    width: fit-content;
+    padding: 10px 15px;
+    color: #6b6b6b;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.menu-link:hover {
+    transform: scale(1.1);
+}
+
